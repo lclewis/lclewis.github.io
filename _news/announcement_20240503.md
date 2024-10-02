@@ -1,8 +1,13 @@
 ---
 layout: post
+title: You know what? The learning rate in gradient descent can go beyond the largest eigenvalue!
 date: 2024-05-03 08:00:00-0400
 inline: true
 related_posts: true
 ---
 
-It turns out the learning rate (step size) chosen in gradient descent can be theoretically shown to exceed $\frac{1}{\lambda_{\max}}$ while still ensuring convergence, as long as it is combined with other steps with some smaller learning rates! Check out our new paper for this interesting result!
+When solving a general linear system using gradient descent, a straightforward analysis often suggests that the step size must not exceed $\frac{1}{\lambda_{\max}}$, where $\lambda_{\max}$ is the largest eigenvalue of the system. Otherwise, the iteration will diverge.
+
+However, when the underlying system exhibits multiscale characteristics, i.e. its eigenvalues cluster into groups with significant differences in magnitude, the conventional wisdom above becomes less reliable. In fact, we show that by employing a combination of large and small learning rates, where the larger rate may exceed $\frac{1}{\lambda_{\max}}$,  the gradient descent can still converge under certain conditions on the number of steps for each rate.
+
+This study moves beyond empirical approaches to learning rate selection, offering a more systematic, data-informed strategy to optimize learning rates to improve training efficiency.
