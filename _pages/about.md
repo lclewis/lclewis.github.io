@@ -20,9 +20,11 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hello! I can also go by Lewis. I'm a fourth-year Ph.D.candidate in the Department of Mathematics at the University of Texas at Austin. I'm grateful for working with and being supported by Prof.<a target="_blank" href="https://web.ma.utexas.edu/users/ytsai/">Richard Tsai</a> under the <a target="_blank" href="https://tsairesearch.github.io">Scientific AI Research group</a>.
 
- My research interests lie primarily in applying geometric probability and differential geometry on machine learning and data science problems.
+My research interests primarily center around studying the impact of the geometry of the  data distribution on (machine learning) algorithms, through the applications of tools from differential geometry and geometric probability.
 
- I'm also into cooking, British rock, bouldering, escape room, and Hearthstone.
+
+
+I'm also into cooking, British rock, bouldering, escape room, and Hearthstone.
 
 
 

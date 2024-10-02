@@ -1,7 +1,10 @@
 # My own navigation notes
 
 ### Header:
-there are many headers and pages (cv, dropdown, projects, repositories, etc.) that are currently hidden. To enable them, simply go to '_pages' and set the nav value to be `true` for corresponding pages.
+there are many headers and pages (cv, dropdown, projects, repositories, etc.) that are currently hidden. To enable them, simply go to '_pages' and set the **nav** value to be `true` for corresponding pages.
+
+- To modify the webpage content, also go to '_pages' (e.g. _pages/about.md)
+- To add new publications, go to '-bibliogrphay/papers.bib'
 
 ### CV:
 
